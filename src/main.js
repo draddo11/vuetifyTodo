@@ -1,12 +1,13 @@
 import Vue   from 'vue';
 import App  from './App.vue';
-import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+// src/main.js
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import vuetify from '@/plugins/vuetify' // path to vuetify export
 
-Vue.use(BootstrapVue)
-Vue.use(BootstrapVueIcons)
+new Vue({
+  vuetify,
+}).$mount('#app')
+
 
 new Vue({
     el:'#app', 
