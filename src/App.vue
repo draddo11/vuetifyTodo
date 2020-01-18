@@ -1,33 +1,60 @@
 <template>
-    <div id ="app">
-       <h3>{{msg}}</h3>
-       <h6> {{title}}</h6>
-       <div class="col-md-12"> 
-    <Character 
-    v-for="(id,index) in initial_ids"
-    :id="id"
-    key= "index"
-    />
-    
-     </div>
-    </div>
+  <v-app>
+    <v-app-bar
+      app
+      color="primary"
+      dark
+    >
+      <div class="d-flex align-center">
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink mr-2"
+          contain
+          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          transition="scale-transition"
+          width="40"
+        />
+
+        <v-img
+          alt="Vuetify Name"
+          class="shrink mt-1 hidden-sm-and-down"
+          contain
+          min-width="100"
+          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
+          width="100"
+        />
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+        text
+      >
+        <span class="mr-2">Latest Release</span>
+        <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-content>
+      <HelloWorld/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
- import Character from './components/Character.vue'
+import HelloWorld from './components/HelloWorld';
 
 export default {
-    name: 'app',
-    data(){
-        return {
-            title: 'Generate Your team here now ',
-            msg:'WELCOME TO THE GALAXY FAR FAR AWAY   ',
-            initial_ids:[1,13,14]
-        }
-    },
+  name: 'App',
 
   components: {
-    Character
-    }
-}
+    HelloWorld,
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
