@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout
+    <v-layout class="indigo"
       text-center
       wrap
     >
