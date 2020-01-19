@@ -11,6 +11,8 @@
     <h1 class="display-4">Massive text</h1>
     <h4 class="display-1">Smalller text </h4>
 
-    <p class="subheading">This is a subheading </p>
+    <p class="subheading font-weight-bold">This is a subheading </p>
+    <p class="caption">This is a caption</p>
+    <!-- <p class="subheading">This is a subheading </p> -->
   </div>
 </template>
