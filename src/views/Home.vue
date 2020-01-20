@@ -13,6 +13,12 @@
         <span>email me </span>
 
     </v-btn>
+    <div>
+    <v-btn class="ma-2" dark>
+        <v-icon dark left>mdi-minus_circle</v-icon>Cancel
+      </v-btn>
+    </div>
+
 
   </div>
 </template>
