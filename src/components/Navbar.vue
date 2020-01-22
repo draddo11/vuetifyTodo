@@ -1,6 +1,9 @@
 <template>
-<nav>
-<h1>NavBar</h1>
+<nav >
+    <v-toolbar flat app>
+        <h1 center >NavBar</h1>
+    </v-toolbar>
+
 </nav>
 
 </template>
