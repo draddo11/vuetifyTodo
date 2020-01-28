@@ -1,7 +1,8 @@
 <template>
 <nav>
     <v-toolbar flat app >
-        <v-toolbar-title>
+        <v-app-bar-nav-icon class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight-light"> Todo</span>
             <span> Vuetify</span>
         </v-toolbar-title>
@@ -14,7 +15,7 @@
         </v-btn>
     </v-toolbar>
 
-    <v-navigation-drawer v-model="drawer" app class= "indigo">
+    <v-navigation-drawer app v-model="drawer"  class= "indigo">
         <p>test</p>
     </v-navigation-drawer>
 
