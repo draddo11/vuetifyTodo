@@ -11,12 +11,18 @@
             <span>Sign Out</span>
              <v-icon right>
                  exit_to_app 
-          </v-icon>
+             </v-icon>
         </v-btn>
     </v-toolbar>
 
-    <v-navigation-drawer app v-model="drawer"  class= "indigo">
-        <p>test</p>
+    <v-navigation-drawer app v-model="drawer"  class= "primary">
+       <v-list>
+           <v-list-tile>
+             <v-list-title-content>
+                <v-list-tile-title>Dashboard</v-list-tile-title> 
+                 </v-list-title-content> 
+            </v-list-tile> 
+       </v-list>
     </v-navigation-drawer>
 
 </nav>
