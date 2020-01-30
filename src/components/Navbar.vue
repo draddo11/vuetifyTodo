@@ -19,7 +19,11 @@
        <v-list>
            <v-list-tile>
              <v-list-title-content>
-                <v-list-tile-title>Dashboard</v-list-tile-title> 
+                 <v-list-tile-action>
+                     <v-icon class="white--text">dashboard</v-icon>
+
+                <v-list-tile-title class="white--text">Dashboard</v-list-tile-title> 
+                 </v-list-tile-action>
                  </v-list-title-content> 
             </v-list-tile> 
        </v-list>
