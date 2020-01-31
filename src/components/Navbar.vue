@@ -17,8 +17,9 @@
 
     <v-navigation-drawer app v-model="drawer"  class= "primary">
        <v-list>
-           <v-list-tile v-for="link in links" :key="link.text">
-             <v-list-title-content>
+           <v-list-tile >
+                <v-divider></v-divider>
+             <v-list-title-content v-for="link in links" :key="link.text"> 
                  <v-list-tile-action>
                      <v-list-item-icon>
                      <v-icon class="white--text">{{link.icon}}</v-icon>
