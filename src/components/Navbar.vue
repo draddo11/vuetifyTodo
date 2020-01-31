@@ -20,14 +20,17 @@
            <v-list-tile v-for="link in links" :key="link.text">
              <v-list-title-content>
                  <v-list-tile-action>
+                     <v-list-item-icon>
                      <v-icon class="white--text">{{link.icon}}</v-icon>
+                     </v-list-item-icon>
                 </v-list-tile-action>
+                 <v-divider></v-divider>
                 <v-list-tile-title class="white--text">{{link.text}}</v-list-tile-title>
                  </v-list-title-content> 
             </v-list-tile> 
        </v-list>
     </v-navigation-drawer>
-    
+
 </nav>
 </template>
 
