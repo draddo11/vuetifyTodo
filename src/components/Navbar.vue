@@ -16,6 +16,7 @@
     </v-toolbar>
 
     <v-navigation-drawer app v-model="drawer"  class= "primary">
+        <v-list-item>
        <v-list>
            <v-list-tile >
               
@@ -28,10 +29,13 @@
                      </v-list-item>
                 </v-list-tile-action>
                  
-                <v-list-tile-title name=" " class="white--text">{{link.text}}</v-list-tile-title>
+                 <v-list-item>
+                <v-list-tile-title name="text" class="white--text">{{link.text}}</v-list-tile-title>
+                 </v-list-item>
                  </v-list-title-content> 
             </v-list-tile> 
        </v-list>
+        </v-list-item>
     </v-navigation-drawer>
 
 </nav>
