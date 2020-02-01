@@ -1,13 +1,13 @@
 <template>
 <nav>
-    <v-toolbar flat app >
+    <v-toolbar  flat >
         <v-app-bar-nav-icon class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight-light"> Todo</span>
                 Vuetify
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn  flat  color= "grey">
+        <v-btn text  color= "error">
             <span>Sign Out</span>
              <v-icon right>
                  exit_to_app 
@@ -18,22 +18,22 @@
     <v-navigation-drawer app v-model="drawer"  class= "primary">
         <v-list-item>
        <v-list>
-           <v-list-tile >
+           <v-list-item >
               
              <v-list-title-content  v-for="link in links" :key="link.text"> 
-                 <v-list-tile-action >
+                 <v-list-item-action >
                      <v-list-item>
                      <v-list-item-icon>
                      <v-icon class="white--text">{{link.icon}}</v-icon>
                      </v-list-item-icon>
                      </v-list-item>
-                </v-list-tile-action>
+                </v-list-item-action>
                  
                  <v-list-item>
-                <v-list-tile-title name="text" class="white--text">{{link.text}}</v-list-tile-title>
+                <v-list-item-title name="text" class="white--text">{{link.text}}</v-list-item-title>
                  </v-list-item>
                  </v-list-title-content> 
-            </v-list-tile> 
+            </v-list-item> 
        </v-list>
         </v-list-item>
     </v-navigation-drawer>
