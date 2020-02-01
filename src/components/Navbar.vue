@@ -21,9 +21,11 @@
               
              <v-list-title-content  v-for="link in links" :key="link.text"> 
                  <v-list-tile-action >
+                     <v-list-item>
                      <v-list-item-icon>
                      <v-icon class="white--text">{{link.icon}}</v-icon>
                      </v-list-item-icon>
+                     </v-list-item>
                 </v-list-tile-action>
                  
                 <v-list-tile-title name=" " class="white--text">{{link.text}}</v-list-tile-title>
