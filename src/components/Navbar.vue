@@ -1,13 +1,13 @@
 <template>
 <nav>
-    <v-toolbar  flat >
+    <v-toolbar flat  >
         <v-app-bar-nav-icon class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight-light"> Todo</span>
                 Vuetify
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn text  color= "error">
+        <v-btn  flat  color= "grey">
             <span>Sign Out</span>
              <v-icon right>
                  exit_to_app 
@@ -15,7 +15,7 @@
         </v-btn>
     </v-toolbar>
 
-    <v-navigation-drawer app v-model="drawer"  class= "primary">
+    <v-navigation-drawer  v-model="drawer"  class= "primary">
         <v-list-item>
        <v-list>
            <v-list-item >
