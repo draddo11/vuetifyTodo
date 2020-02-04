@@ -2,7 +2,7 @@
   <v-app class="grey lighten-4">
     <Dashboard/>
     <v-content>
-      <router-view></router-view>
+      <!-- <router-view></router-view> -->
     </v-content>
   </v-app>
 </template>
