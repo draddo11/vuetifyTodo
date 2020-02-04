@@ -1,4 +1,3 @@
-<!-- Vue Component -->
 
 <template>
   <v-icon>{{ svgPath }}</v-icon>

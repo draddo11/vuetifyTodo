@@ -1,6 +1,6 @@
 <template>
   <v-app class="grey lighten-4">
-    <Navbar/>
+    <Dashboard/>
     <v-content>
       <router-view></router-view>
     </v-content>
@@ -9,14 +9,14 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld';
-import Navbar from '@/components/Navbar';
+import Dashboard from '@/components/Dashboard';
 
 
 export default {
   
   name: 'App',
 
-  components: { Navbar},
+  components: { Dashboard},
 
   data: () => ({
   
