@@ -1,6 +1,8 @@
 
 <template>
-  <v-icon>{{ svgPath }}</v-icon>
+ <div class="Projects">
+     <h2>PROJECTS</h2>
+ </div>
 </template>
 
 <script>

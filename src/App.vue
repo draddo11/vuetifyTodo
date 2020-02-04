@@ -1,22 +1,22 @@
 <template>
   <v-app class="grey lighten-4">
-    <Dashboard/>
+    <Navbar/>
     <v-content>
-      <!-- <router-view></router-view> -->
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld';
-import Dashboard from '@/components/Dashboard';
+import Navbar from '@/components/Dashboard';
 
 
 export default {
   
   name: 'App',
 
-  components: { Dashboard},
+  components: { Navbar},
 
   data: () => ({
   

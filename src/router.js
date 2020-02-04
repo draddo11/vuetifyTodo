@@ -1,10 +1,10 @@
 
 import Vue from 'vue'
 import Router from 'vue-router'
-import Dashboard from './components/Dashboard.vue'
-import Projects from './components/Projects.vue'
+import Dashboard from './views/Dashboard.vue'
+import Projects from './views/Projects.vue'
 import Textprops from './views/Textprops.vue'
-import Team from './components/Team.vue'
+import Team from './views/Team.vue'
 
 Vue.use(Router)
 
