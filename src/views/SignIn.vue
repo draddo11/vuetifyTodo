@@ -1,7 +1,6 @@
-
 <template>
   <div class= "team">
-    <h2>Team</h2>
+    <h2>Sign in Page </h2>
   </div>
 </template>
 

@@ -5,6 +5,7 @@ import Dashboard from './views/Dashboard.vue'
 import Projects from './views/Projects.vue'
 import Textprops from './views/Textprops.vue'
 import Team from './views/Team.vue'
+import SignIn from './views/SignIn.vue'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
         path: '/text',
         name: 'textprops',
         component: Textprops
-    }
+    },
+    {
+      path: '/signin',
+      name: 'signin',
+      component: SignIn
+  }
   ]
 })
