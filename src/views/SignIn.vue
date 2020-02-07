@@ -11,7 +11,7 @@
     <v-card
        color="#fff"
             light
-              max-width="360"
+              max-width="320"
              position= "left"
             class="mx-auto left">
 
@@ -22,6 +22,18 @@
             cols="12"
             md="12"
           >
+
+       <div class="my-2">
+      <v-btn  block color="#4C8BF5" class="white--text"   >
+         Google
+        <v-icon color= "white " right >
+        mdi-email
+        </v-icon>
+         </v-btn>
+
+         <h2 class= text-sm-center >or</h2>
+
+     </div>
       <v-text-field
         v-model="userCrendentials.email"
         :rules="rules.email"
@@ -39,22 +51,30 @@
           >
 
       <v-text-field
-        v-model="userCrendentials.password"
-        :rules="rules.password"
-        label="Password"
-        v-mask= "mask"
-        required
-        outlined
-        dense
+          v-model="password"
+              :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
+              :rules="[rules.required, rules.min]"
+              :type="show1 ? 'text' : 'password'"
+              name="input-10-1"
+              label="Password"
+              hint="At least 8 characters"
+              counter
+              @click:append="show1 = !show1"
+              outlined
+              dense
       ></v-text-field>
      </v-col>
 
       
 
-     <v-row align="center">
-    <v-col class="text-center" cols="12" sm="8.5" >
+    <!-- <v-row align="center"> -->
+    <v-col class="text-center"
+     cols="12"
+      sm="12" 
+      >
       <div  class="my-2">
       <v-btn 
+      
         block
         color="error"
         @click="signIn"
@@ -74,18 +94,10 @@
       </v-col>
        <!-- </v-row> -->
 
-     <h2 class= text--center >or</h2>
-
-     <div class="my-2">
-      <v-btn block class outlined color ="indigo" >
-         Google
-        <v-icon color= "blue darken-1" right >
-        mdi-email
-        </v-icon>
-         </v-btn>
-     </div>
+     
+    
     </v-col>
-     </v-row>
+     <!-- </v-row> -->
   
     </v-form>
     </v-card>
@@ -109,10 +121,17 @@ export default {
         v => !!v || "E-mail is required",
         v => /.+@.+\..+/.test(v) || "E-mail must be valid"
       ],
-      password: [
-        v => !!v || "Password is required",
-        v => (v && v.length >= 6) || "Name must be more than 6 characters"
-      ]
+       show1: false,
+       password: 'Password',
+       rules: {
+        required: value => !!value || 'Required.',
+        min: v => v.length >= 8 || 'Min 8 characters',
+        emailMatch: () => ('The email and password you entered don\'t match'),
+      // password: [ 
+      //   v => !!v || "Password is required",
+      //   v => (v && v.length >= 6) || "Name must be more than 6 characters"
+      // ]
+    }
     }
   }),
   methods: {
