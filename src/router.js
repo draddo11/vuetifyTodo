@@ -38,11 +38,11 @@ export default new Router({
       path: '/signin',
       name: 'signin',
       component: SignIn
-  },
-  {
+    },
+    {
     path: '/employeesignup',
     name: 'employeesignup',
     component: EmployeeSignUp
-}
+    }
   ]
 })
