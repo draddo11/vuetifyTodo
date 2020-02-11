@@ -3,14 +3,16 @@
   <div class="px-4">
     <br/>
     <h1 class="headline font-weight-black">
-      Find the Right Jobs Here and Manage your Jobs.
+      Find the Right People  Here and Manage your Jobs Posts.
     </h1>
     <span class="caption font-weight-medium">
       Complete fields to sign up for a free account as an employee
     </span>
+    <v-spacer></v-spacer>
+
 <v-card
-     max-width="360"
-     height="auto"
+     max-width="320"
+     height="1100"
     class="mx-auto"
      center
      raised 
@@ -78,7 +80,7 @@
             md="12">
       <v-textarea v-model="employeeForm.about" color="primary" auto-grow  max-width="120px"  label="description <small>Short description about yourself">
         <template v-slot:label>
-          <div>description <small> Short description about yourself</small></div>
+          <div> <small> Write a short description about yourself</small></div>
         </template>
       </v-textarea>
        </v-col>
@@ -180,10 +182,16 @@
       ></v-text-field>
       </v-col>
 
-      <br/>
-
+    
+    <v-cols 
+    class="text-center"
+    cols="12"
+    sm="12"
+    >
+    <div class="my-2">
       <v-btn
-      dark
+      
+        dark
         color="error"
         :loading="iconLoading"
         :disabled="iconLoading"
@@ -192,6 +200,10 @@
         >
         Sign Up <v-icon right dark>mdi-login-variant</v-icon>
       </v-btn>
+    </div>
+    </v-cols>
+
+     
     </v-form>
     </v-card>
   </div>
@@ -458,6 +470,10 @@ export default {
       'Design',
       'Vue',
       'Vuetify',
+      'React', 
+      'Product Management',
+      'SQL',
+      ''
     ],
     employeeForm: {
       firstName: "",
