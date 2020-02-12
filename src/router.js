@@ -7,7 +7,7 @@ import Textprops from './views/Textprops.vue'
 import Team from './views/Team.vue'
 import SignIn from './views/SignIn.vue'
 import EmployeeSignUp from './views/EmployeeSignUp.vue'
-import Homeview from './views/Homeviews.vue'
+import Homeview from './views/Homeview.vue'
 
 Vue.use(Router)
 
