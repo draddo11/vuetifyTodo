@@ -7,12 +7,21 @@
                 Vuetify
         </v-toolbar-title>
         <v-spacer></v-spacer>
+        <router-link to="/home">
+        <v-btn  
+        depressed 
+        color= "blue">
+        Home
+
+        </v-btn>
+        </router-link>
         <v-btn  flat  color= "grey">
             <span>Sign Out</span>
              <v-icon right>
                  exit_to_app 
              </v-icon> 
         </v-btn>
+        
     </v-toolbar>
 
     <v-navigation-drawer app v-model="drawer"  class= "primary">
