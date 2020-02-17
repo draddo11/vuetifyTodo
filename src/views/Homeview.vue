@@ -8,3 +8,11 @@ We will find offers / candidates for you!</h3>
  
   </div>
 </template>
+
+<script>
+//  import Footer from '..components/Footer'
+
+  export default {
+    
+  }
+</script>
