@@ -9,7 +9,7 @@
         <v-spacer></v-spacer>
         <router-link to="/home">
         <v-btn  
-        depressed 
+        
         color= "blue">
         Home
 
