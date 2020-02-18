@@ -1,4 +1,6 @@
 <template>
+<div id="app">
+  <v-app id="inspire">
   <v-footer
     dark
     padless
@@ -30,8 +32,11 @@
       </v-card-text>
     </v-card>
   </v-footer>
+   </v-app>
+</div>
 </template>
 <script>
+
 
 export default {
 
@@ -43,7 +48,7 @@ export default {
       'fab fa-linkedin',
       'fab fa-instagram',
     ],
-  }),
+      }),
 
 }
   
