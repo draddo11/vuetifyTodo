@@ -8,7 +8,7 @@ We will find offers / candidates for you!</h3>
     max-width="400"
     class="mx-auto"
   >
-    <v-system-bar
+    <!-- <v-system-bar
       color="pink darken-2"
       dark
     >
@@ -19,9 +19,9 @@ We will find offers / candidates for you!</h3>
       <v-icon>mdi-window-maximize</v-icon>
 
       <v-icon>mdi-close</v-icon>
-    </v-system-bar>
+    </v-system-bar> -->
 
-    <v-app-bar
+    <!-- <v-app-bar
       dark
       color="pink"
     >
@@ -34,7 +34,7 @@ We will find offers / candidates for you!</h3>
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
-    </v-app-bar>
+    </v-app-bar> -->
 
     <v-container>
       <v-row dense>
