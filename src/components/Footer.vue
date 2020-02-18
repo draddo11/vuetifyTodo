@@ -32,10 +32,10 @@
   </v-footer>
 </template>
 <script>
-  new Vue({
-  el: '#app',
-//   vuetify: new Vuetify(),
-  data: () => ({
+
+export default {
+
+ data: () => ({
     icons: [
       'fab fa-facebook',
       'fab fa-twitter',
@@ -44,6 +44,8 @@
       'fab fa-instagram',
     ],
   }),
-})
+
+}
+  
 
 </script>
