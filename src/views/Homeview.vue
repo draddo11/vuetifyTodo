@@ -4,15 +4,19 @@
     <h3>Hire expert Vue.js developers & find Vue.js jobs
 Sign up and post a job or create your developer profile.
 We will find offers / candidates for you!</h3>
+   
+   <Footer/>
+  </div>
 
  
-  </div>
 </template>
 
 <script>
-//  import Footer from '..components/Footer'
+ import Footer from '../components/Footer.vue'
 
   export default {
-    
+    components:{
+      Footer,
+    }, 
   }
 </script>
