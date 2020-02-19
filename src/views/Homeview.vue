@@ -5,7 +5,7 @@
 Sign up and post a job or create your developer profile.
 We will find offers / candidates for you!</h3>
 <v-card
-    max-width="400"
+    max-width="auto"
     class="mx-auto"
   >
     <!-- <v-system-bar
