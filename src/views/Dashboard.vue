@@ -6,9 +6,11 @@
     Curabitur lacinia sem et turpis euismod, eget elementum ex pretium.
     <template v-slot:actions>
       <v-btn text color="primary">Remote</v-btn>
-      <v-btn text color="primary">Full time</v-btn>
+      <v-btn text color="primary">Full-time</v-btn>
       <v-btn text color="primary">Internships</v-btn>
-      <v-btn text color="primary">Part time</v-btn>
+      <v-btn text color="primary">Part-time</v-btn>
+      <v-btn text color="primary">Freelance</v-btn>
+      <v-btn text color="primary">All Jobs</v-btn>
     </template>
   </v-banner>
       <div id="app">
