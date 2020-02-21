@@ -4,8 +4,10 @@
       <v-banner>
      
     <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Praesent cursus nec sem id malesuada.
-    Curabitur lacinia sem et turpis euismod, eget elementum ex pretium.
-    <template v-slot:actions>
+   sem et turpis euismod, eget elementum ex pretium.
+    <template
+    
+     >
       <v-btn text color="primary">Remote</v-btn>
       <v-btn text color="primary">Full-time</v-btn>
       <v-btn text color="primary">Internships</v-btn>
