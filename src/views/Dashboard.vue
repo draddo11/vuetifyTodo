@@ -1,10 +1,9 @@
 <template>
   <div class= "dashboard">
       
-      <v-banner>
+      <v-banner color="grey">
      
-    <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Praesent cursus nec sem id malesuada.
-   sem et turpis euismod, eget elementum ex pretium.
+    
     <template
     
      >
@@ -20,7 +19,7 @@
   <v-app id="inspire">
     <v-card
       class="mx-auto"
-      max-width="400"
+      max-width="mx-auto"
     >
       <v-img
         class="white--text align-end"
@@ -28,6 +27,12 @@
         src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
       >
         <v-card-title>Top 10 Australian beaches</v-card-title>
+        <v-btn text color="primary">Remote</v-btn>
+      <v-btn text color="primary">Full-time</v-btn>
+      <v-btn text color="primary">Internships</v-btn>
+      <v-btn text color="primary">Part-time</v-btn>
+      <v-btn text color="primary">Freelance</v-btn>
+      <v-btn text color="primary">All Jobs</v-btn>
       </v-img>
   
       <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
