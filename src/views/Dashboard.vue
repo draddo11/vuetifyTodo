@@ -4,17 +4,22 @@
       <v-banner color="grey-4">
      
     
-    <!-- <template
-    
+    <template
+      color="grey-3"
      >
-     Find your next dream job or Candidate 
+  
+      <div color="grey-3">
+     Find your next dream job or Candidate
+      </div> 
       <v-btn text color="primary">Remote</v-btn>
       <v-btn text color="primary">Full-time</v-btn>
       <v-btn text color="primary">Internships</v-btn>
       <v-btn text color="primary">Part-time</v-btn>
       <v-btn text color="primary">Freelance</v-btn>
       <v-btn text color="primary">All Jobs</v-btn>
-    </template> -->
+    
+    </template>
+    
   </v-banner>
       <div id="app">
   <v-app id="inspire">
@@ -29,12 +34,12 @@
         src="https://cdn.vuetifyjs.com/images/cards/forest-art.jpg"
       >
         <v-card-title>Top 10 Australian beaches</v-card-title>
-        <v-btn text color="primary">Remote</v-btn>
+        <!-- <v-btn text color="primary"D>Remote</v-btn>
       <v-btn text color="primary">Full-time</v-btn>
       <v-btn text color="primary">Internships</v-btn>
       <v-btn text color="primary">Part-time</v-btn>
       <v-btn text color="primary">Freelance</v-btn>
-      <v-btn text color="primary">All Jobs</v-btn>
+      <v-btn text color="primary">All Jobs</v-btn> -->
       </v-img>
   
       <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
