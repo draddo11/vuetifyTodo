@@ -1,19 +1,20 @@
 <template>
   <div class= "dashboard">
       
-      <v-banner color="grey">
+      <v-banner color="grey-4">
      
     
-    <template
+    <!-- <template
     
      >
+     Find your next dream job or Candidate 
       <v-btn text color="primary">Remote</v-btn>
       <v-btn text color="primary">Full-time</v-btn>
       <v-btn text color="primary">Internships</v-btn>
       <v-btn text color="primary">Part-time</v-btn>
       <v-btn text color="primary">Freelance</v-btn>
       <v-btn text color="primary">All Jobs</v-btn>
-    </template>
+    </template> -->
   </v-banner>
       <div id="app">
   <v-app id="inspire">
@@ -25,7 +26,7 @@
       <v-img
         class="white--text align-end"
         height="200px"
-        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+        src="https://cdn.vuetifyjs.com/images/cards/forest-art.jpg"
       >
         <v-card-title>Top 10 Australian beaches</v-card-title>
         <v-btn text color="primary">Remote</v-btn>
