@@ -8,7 +8,7 @@
       color="grey-3"
      >
   
-      <div color="grey-3">
+      <div>
      Find your next dream job or Candidate
       </div> 
       <v-btn text color="primary">Remote</v-btn>

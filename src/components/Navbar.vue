@@ -3,17 +3,12 @@
     <v-toolbar flat  >
         <v-app-bar-nav-icon class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
-            <span class="font-weight-light"> Todo</span>
-                Vuetify
+            <span class="font-weight-light"> Daily Jobs </span>
+                <v-icon></v-icon>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <router-link to="/home">
-        <v-btn  
-        
-        color= "blue">
-        Home
-
-        </v-btn>
+        <v-icon>home</v-icon>
         </router-link>
         <v-btn  flat  color= "grey">
             <span>Sign Out</span>
