@@ -18,6 +18,7 @@
       <div id="app">
   <v-app id="inspire">
     <v-card
+     
       class="mx-auto"
       max-width="mx-auto"
     >
