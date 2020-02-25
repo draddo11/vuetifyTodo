@@ -7,15 +7,18 @@
                 <v-icon></v-icon>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <router-link to="/home">
-        <v-icon>home</v-icon>
+        <router-link to="/">
+        <v-icon large>home</v-icon>
         </router-link>
+        <v-spacer></v-spacer>
+        <router-link to="/home">
         <v-btn  flat  color= "grey">
             <span>Sign Out</span>
              <v-icon right>
                  exit_to_app 
              </v-icon> 
         </v-btn>
+        </router-link>
         
     </v-toolbar>
 
