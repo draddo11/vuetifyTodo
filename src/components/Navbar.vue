@@ -7,14 +7,16 @@
                 <v-icon></v-icon>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <router-link to="/">
+       
+        <router-link class="routes" to="/">
         <v-icon large>home</v-icon>
         </router-link>
+       
         <v-spacer></v-spacer>
-        <router-link to="/home">
+        <router-link class="routes" to="/home">
         <v-btn  flat  color= "grey">
             <span>Sign Out</span>
-             <v-icon right>
+             <v-icon class="routes" right>
                  exit_to_app 
              </v-icon> 
         </v-btn>
@@ -69,8 +71,8 @@
 
     }
     </script>
-<style scoped>
-li a {
+<style>
+.routes  {
     text-decoration: none;
 }
 </style>

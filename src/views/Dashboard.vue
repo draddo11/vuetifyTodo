@@ -34,12 +34,7 @@
         src="https://cdn.vuetifyjs.com/images/cards/forest-art.jpg"
       >
         <v-card-title>Top 10 Australian beaches</v-card-title>
-        <!-- <v-btn text color="primary"D>Remote</v-btn>
-      <v-btn text color="primary">Full-time</v-btn>
-      <v-btn text color="primary">Internships</v-btn>
-      <v-btn text color="primary">Part-time</v-btn>
-      <v-btn text color="primary">Freelance</v-btn>
-      <v-btn text color="primary">All Jobs</v-btn> -->
+       
       </v-img>
   
       <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
@@ -180,3 +175,10 @@
     
   }
 </script>
+
+<style>
+#remove{
+ text-decoration-color: none;
+}
+
+</style>
