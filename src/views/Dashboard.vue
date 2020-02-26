@@ -11,7 +11,7 @@
       <div>
      Find your next dream job or Candidate
       </div> 
-      <router-link to="/team" >
+      <router-link class="routes" to="/team" >
       <v-btn text color="primary">Remote </v-btn>
       </router-link>
       <v-btn text color="primary">Full-time</v-btn>

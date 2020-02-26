@@ -59,7 +59,7 @@
            
             return{
                  components: Footer,
-                 drawer:false ,
+                 drawer:true ,
                  links:[
                      {icon: 'dashboard',text:'Dashboard', route:'/' },
                      { icon:'folder', text:'My Projects' , route:'/projects'},
