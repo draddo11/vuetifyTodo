@@ -21,12 +21,15 @@
       <v-btn text color="primary">All Jobs</v-btn>
     
     </template>
+
     
   </v-banner>
-      <div id="app">
+
+
+  <div id="app">
   <v-app id="inspire">
     <v-card
-     
+     elevation="25"
       class="mx-auto"
       max-width="mx-auto"
     >
@@ -64,6 +67,8 @@
       </v-card-actions>
     </v-card>
   </v-app>
+  
+
   <div id="app">
   <v-app id="inspire">
     <v-card

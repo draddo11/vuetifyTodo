@@ -13,9 +13,10 @@
         </router-link>
        
         <v-spacer></v-spacer>
-        <router-link class="routes" to="/home">
-        <v-btn  flat  color= "grey">
-            <span>Sign Out</span>
+        <router-link class="routes" to="/signin">
+        <v-btn  flat   elevation="9" class= "error">
+          
+            <span>Sign In</span>
              <v-icon class="routes" right>
                  exit_to_app 
              </v-icon> 
