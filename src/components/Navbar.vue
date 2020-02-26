@@ -1,9 +1,9 @@
 <template>
 <nav>
-    <v-toolbar flat  >
-        <v-app-bar-nav-icon class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
+    <v-toolbar flat reponsive >
+        <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
-            <span class="font-weight-light"> Daily Jobs </span>
+            <span class="font-weight">Hiremate </span>
                 <v-icon></v-icon>
         </v-toolbar-title>
         <v-spacer></v-spacer>
