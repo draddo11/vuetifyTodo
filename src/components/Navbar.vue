@@ -14,7 +14,7 @@
        
         <v-spacer></v-spacer>
         <router-link class="routes" to="/signin">
-        <v-btn  flat   elevation="9" class= "error">
+        <v-btn  text  elevation="9" class= "error">
           
             <span>Sign In</span>
              <v-icon class="routes" right>
