@@ -36,7 +36,7 @@
       <v-img
         class="white--text align-end"
         height="200px"
-        src="https://cdn.vuetifyjs.com/images/cards/forest-art.jpg"
+        src="https://cdn.vuetifyjs.com/images/cards/mountain.jpg"
       >
         <v-card-title>Top 10 Australian beaches</v-card-title>
        
