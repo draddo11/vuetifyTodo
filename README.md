@@ -1,5 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/86fb0459-c5e9-4946-952f-82446a24d159/deploy-status)](https://app.netlify.com/sites/zen-perlman-2651ba/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86fb0459-c5e9-4946-952f-82446a24d159/deploy-status)](https://app.netlify.com/sites/hiremate/deploys)
 # vuetifyTodo
 
 ## Project setup
