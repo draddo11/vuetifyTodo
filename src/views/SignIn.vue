@@ -26,9 +26,9 @@
        <div class="my-2">
       <v-btn  block color="#4C8BF5" class="white--text">
        <v-img 
-       width="10px"
-       height="10px"
-       src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"  Google
+       width="18px"
+       height="18px"
+       src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg">  Google
        </v-img>
         <v-icon color= "white " right >
         mdi-email
