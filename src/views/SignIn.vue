@@ -166,7 +166,7 @@ $google-blue: #4285f4;
 $button-active-blue: #1669F2;
 
 .google-btn {
-  width: 184px;
+  width: 304px;
   height: 42px;
   background-color: $google-blue;
   border-radius: 2px;
