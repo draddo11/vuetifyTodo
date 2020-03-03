@@ -1,6 +1,6 @@
 <template>
   <div class="px-4">
-    <br />
+    <br/>
     <p class="headline font-weight-black">
       Sign Up to manage your current Job boards.
     </p>
@@ -44,7 +44,7 @@
   <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
 </div>
      </div>
-    
+    <v-divider :inset="inset" vertical></v-divider>
      <v-divider
         class="mx-4"
         :inset="inset"
