@@ -44,7 +44,12 @@
   <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
 </div>
      </div>
-
+    
+     <v-divider
+        class="mx-4"
+        :inset="inset"
+        vertical
+      ></v-divider>
      <v-spacer></v-spacer>
       <v-text-field
         v-model="userCrendentials.email"
