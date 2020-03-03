@@ -46,7 +46,7 @@
         <v-list-item>
           <v-list-item-title>
             Search for your favorite
-            <strong>Cryptocurrency</strong>
+            <!-- <strong>Cryptocurrency</strong> -->
           </v-list-item-title>
         </v-list-item>
       </template>
@@ -131,15 +131,7 @@
       max-width="400"
       class="mx-auto"
     >
-     
-        <v-spacer></v-spacer>
-  
-      
-  
-      
-  
-   
-        <v-row dense>
+         <v-row dense>
           <v-col cols="12"
           md=12>
             <v-card
