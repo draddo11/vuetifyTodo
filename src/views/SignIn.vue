@@ -41,9 +41,11 @@
   <div class="google-icon-wrapper">
     <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
   </div>
-  <p class="btn-text"><b>Sign in with google</b></p>
+  <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
 </div>
      </div>
+
+     <v-spacer></v-spacer>
       <v-text-field
         v-model="userCrendentials.email"
         :rules="rules.email"
@@ -166,7 +168,7 @@ $google-blue: #4285f4;
 $button-active-blue: #1669F2;
 
 .google-btn {
-  width: 304px;
+  width: 295px;
   height: 42px;
   background-color: $google-blue;
   border-radius: 2px;
