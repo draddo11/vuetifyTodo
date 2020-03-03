@@ -27,8 +27,7 @@
       <v-btn  block color="#4C8BF5" class="white--text">
        <v-img 
        width="18px"
-       height="']
-       18px"
+       height="18px"
        src="../assets/glogo.png"> 
        </v-img>
         Google
