@@ -2,7 +2,7 @@
   <div class="px-4">
     <br/>
     <p class="headline font-weight-black">
-      Sign Up to manage your current Job boards.
+      Sign in  to manage your current Job boards.
     </p>
     <p class="caption font-weight-medium">
       By continuing, you agree to our Terms of Use and Privacy Policy
