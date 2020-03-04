@@ -42,7 +42,7 @@
       hide-selected
       item-text="name"
       item-value="symbol"
-      label="Search for a coin..."
+      label="Search for a job..."
       solo
     >
       <template v-slot:no-data>
