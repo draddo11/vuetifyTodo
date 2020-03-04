@@ -2,7 +2,7 @@
   <div class="px-4">
     <br/>
     <p class="headline font-weight-black">
-      Sign in  to apply for Jobs.  or <v-btn elevation="20">Sign up</v-btn> as an employer to post a job
+      Sign in  to apply for Jobs.  or<router-link to='/employeesignup'> <v-btn elevation="20">Sign up</v-btn> </router-link> an employer to post a job
     </p>
     <p class="caption font-weight-medium">
       By continuing, you agree to our Terms of Use and Privacy Policy
