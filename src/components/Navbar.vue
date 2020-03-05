@@ -22,6 +22,28 @@
              </v-icon>  -->
         </v-btn>
         </router-link>
+
+        <router-link class="routes" to="/signin">
+        <v-btn  x-small   outlined color="blue" >
+          
+            <span>Login</span>
+             <!-- <v-icon class="routes" right>
+                 exit_to_app 
+             </v-icon>  -->
+        </v-btn>
+        </router-link>
+    
+
+        <router-link class="routes" to="/signin">
+        <v-btn  x-small   outlined color="blue" >
+          
+            <span>Register</span>
+             <!-- <v-icon class="routes" right>
+                 exit_to_app 
+             </v-icon>  -->
+        </v-btn>
+        </router-link>
+
         
     </v-toolbar>
 
