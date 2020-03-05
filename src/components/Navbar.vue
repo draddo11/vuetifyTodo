@@ -1,6 +1,6 @@
 <template>
 <nav>
-    <v-toolbar flat reponsive >
+    <v-toolbar  flat reponsive height=30px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight">Hiremate </span>
