@@ -10,7 +10,7 @@
   
       <div>
      Find your next dream job or Candidate 
-     <span>Create an account as a<router-link to='/signin'> <v-btn elevation="20">Job seeker</v-btn>  or <v-btn>Employer</v-btn></router-link> </span>
+     <span>Create an account as a<router-link to='/signin'> <v-btn elevation="">Job seeker</v-btn>  or <v-btn>Employer</v-btn></router-link> </span>
       </div> 
       <router-link class="routes" to="/team" >
       <v-btn text color="primary">Remote </v-btn>
