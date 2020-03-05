@@ -1,6 +1,6 @@
 <template>
 <nav>
-    <v-toolbar  color="grey" flat reponsive height=25px >
+    <v-toolbar  color="white" flat reponsive height=25px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight">Hiremate </span>
@@ -35,13 +35,15 @@
     
 
         <router-link class="routes" to="/signin">
-        <v-btn  x-small   outlined color="blue" >
+        <div class="my-2">
+        <v-btn size="xs-small" text small color="primary" class= "text-uppercase" >
           
             <span>Register</span>
              <!-- <v-icon class="routes" right>
                  exit_to_app 
              </v-icon>  -->
         </v-btn>
+        </div>
         </router-link>
 
         
