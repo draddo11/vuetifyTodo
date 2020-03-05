@@ -9,14 +9,14 @@
         <v-spacer></v-spacer>
        
         <router-link class="routes" to="/">
-        <v-icon large>home</v-icon>
+        <v-icon mediun>home</v-icon>
         </router-link>
        
         <v-spacer></v-spacer>
         <router-link class="routes" to="/signin">
-        <v-btn  text elevation="9"  outlined color="error" >
+        <v-btn  x-small   outlined color="blue" >
           
-            <span>Sign In</span>
+            <span>Post a Job </span>
              <v-icon class="routes" right>
                  exit_to_app 
              </v-icon> 
