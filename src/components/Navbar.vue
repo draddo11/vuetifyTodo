@@ -28,9 +28,7 @@
         <v-btn  text color="teal" >
           
             <span>Login</span>
-             <!-- <v-icon class="routes" right>
-                 exit_to_app 
-             </v-icon>  -->
+           
         </v-btn>
         </div>
         </router-link>
@@ -41,9 +39,7 @@
         <v-btn  text  color="error">
           
             <span>Register</span>
-             <!-- <v-icon class="routes" right>
-                 exit_to_app 
-             </v-icon>  -->
+            
         </v-btn>
         </div>
         </router-link>
