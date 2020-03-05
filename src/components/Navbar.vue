@@ -25,7 +25,7 @@
 
         <router-link class="routes" to="/signin">
         <div class="my-2">
-        <v-btn  x-small   outlined color="primary" >
+        <v-btn  text color="teal" >
           
             <span>Login</span>
              <!-- <v-icon class="routes" right>
@@ -38,7 +38,7 @@
 
         <router-link class="routes" to="/signin">
         <div class="my-2">
-        <v-btn size="xs-small" text small color="primary" class= "text-lowercase" >
+        <v-btn  text  color="error">
           
             <span>Register</span>
              <!-- <v-icon class="routes" right>
