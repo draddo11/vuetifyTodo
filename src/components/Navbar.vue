@@ -1,6 +1,6 @@
 <template>
 <nav>
-    <v-toolbar  flat reponsive height=30px >
+    <v-toolbar  color="grey" flat reponsive height=25px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
             <span class="font-weight">Hiremate </span>
@@ -17,9 +17,9 @@
         <v-btn  x-small   outlined color="blue" >
           
             <span>Post a Job </span>
-             <v-icon class="routes" right>
+             <!-- <v-icon class="routes" right>
                  exit_to_app 
-             </v-icon> 
+             </v-icon>  -->
         </v-btn>
         </router-link>
         
