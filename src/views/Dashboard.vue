@@ -26,18 +26,14 @@
     
   </v-banner>
   
-
-  
-  color="blue accent-3">
  <template>
   <v-card
     class="pa-4"
     flat
-   
   >
     <v-toolbar
       dense
-      floating
+      floating right
     >
       <v-text-field
         hide-details
@@ -45,13 +41,9 @@
         single-line
       ></v-text-field>
 
-      <v-btn icon>
-        <v-icon>my_location</v-icon>
-      </v-btn>
+      
 
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+     
     </v-toolbar>
   </v-card>
 </template>
