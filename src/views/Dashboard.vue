@@ -29,7 +29,7 @@
  <template>
   <v-card
     class="pa-4"
-    
+    elevation="70"
     flat
   >
     <v-toolbar
