@@ -26,10 +26,59 @@
     
   </v-banner>
   
-<template>
-  <v-toolbar 
+
   
   color="blue accent-3">
+ <template>
+  <v-card
+    class="pa-4"
+    flat
+   
+  >
+    <v-toolbar
+      dense
+      floating
+    >
+      <v-text-field
+        hide-details
+        prepend-icon="search"
+        single-line
+      ></v-text-field>
+
+      <v-btn icon>
+        <v-icon>my_location</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-dots-vertical</v-icon>
+      </v-btn>
+    </v-toolbar>
+  </v-card>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- <v-app-bar-nav-icon class="hidden-sm-and-down"></v-app-bar-nav-icon> -->
     <!-- <v-toolbar-title class="title mr-6 hidden-sm-and-down">Cryptocurrency</v-toolbar-title> -->
     <!-- <v-autocomplete
@@ -83,36 +132,8 @@
       </template>
     </v-autocomplete> -->
 
-    <template>
-  <v-card
-    class="pa-4"
-    flat
-    height="300px"
-    img="https://cdn.vuetifyjs.com/images/toolbar/map.jpg"
-  >
-    <v-toolbar
-      dense
-      floating
-    >
-      <v-text-field
-        hide-details
-        prepend-icon="search"
-        single-line
-      ></v-text-field>
-
-      <v-btn icon>
-        <v-icon>my_location</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-toolbar>
-  </v-card>
-</template>
+   
     
-  </v-toolbar>
-</template>
 
   <div id="app">
   <v-app id="inspire">
