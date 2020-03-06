@@ -120,7 +120,15 @@
   
     </v-form>
     </v-card>
+<h3>Don't have an account?</h3>
+Either you are a company or a developer, what are you waiting for?
+<v-btn> Sign Up</v-btn>
+
+
   </div>
+
+
+  
 </template>
 
 <script>
