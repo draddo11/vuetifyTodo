@@ -34,7 +34,8 @@
   >
     <v-toolbar
       dense
-      floating right
+     right
+      class="mx-12"
     >
       <v-text-field
         hide-details
