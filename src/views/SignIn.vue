@@ -121,13 +121,13 @@
     </v-form>
     </v-card>
      <v-col class="text-center" md="8" cols="12">
-    <v-card  cols="8"
-            md="8"
-            position="center"
-            max-width="480px"
-            max-height="120px"
+    <v-card   color="#fff"
+            light
+              max-width="320"
+             position= "left"
+            class="mx-auto left">
             >
-    <h3 class="my-2" >Don't have an account?</h3>
+    <h3 class="m-2" >Don't have an account?</h3>
     Either you are a company or a developer, what are you waiting for?
     <span><v-btn class= primary> Sign Up</v-btn></span>
 
