@@ -125,18 +125,19 @@
             light
               max-width="320"
              position= "left"
+             max-height="220px"
             class="mx-auto left">
-            >
-    <h3 class="m-2" >Don't have an account?</h3>
+            
+
+    <h3 class="m-2"> Don't have an account?</h3>
     Either you are a company or a developer, what are you waiting for?
-    <span><v-btn class= primary> Sign Up</v-btn></span>
+    <v-spacer></v-spacer>
+    <span><v-btn class= "my-2" color= yellow> Sign Up</v-btn></span>
 
     </v-card>
      </v-col>
   </div>
 
-
-  
 </template>
 
 <script>
