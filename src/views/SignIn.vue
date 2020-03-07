@@ -2,7 +2,7 @@
   <div class="px-4">
     <br/>
     <p class="headline font-weight-black">
-      Sign in  to apply for Jobs.  or   <router-link to='/employeesignup'> <v-btn text color="teal" >Sign up</v-btn> </router-link> an employer to post a job
+      Sign in  to apply for Jobs.  or    <v-btn text color="teal" >Sign up</v-btn>  an employer to post a job
     </p>
     <p class="caption font-weight-medium">
       By continuing, you agree to our Terms of Use and Privacy Policy
@@ -132,7 +132,7 @@
     <h3 class="m-2"> Don't have an account?</h3>
     Either you are a company or a developer, what are you waiting for?
     <v-spacer></v-spacer>
-    <span><v-btn class= "my-2" color= yellow> Sign Up</v-btn></span>
+    <span><router-link to='/employeesignup'><v-btn class= "my-2" color= yellow> Sign Up</v-btn></router-link></span>
 
     </v-card>
      </v-col>
