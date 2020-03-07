@@ -120,15 +120,17 @@
   
     </v-form>
     </v-card>
-    <v-card  cols="4"
-            md="4"
+     <v-col class="text-center" md="8" cols="12">
+    <v-card  cols="8"
+            md="8"
             position="center"
-            max-width="300px">
-<h3 class="my-2" >Don't have an account?</h3>
-Either you are a company or a developer, what are you waiting for?
-<v-btn class= primary> Sign Up</v-btn>
+            max-width="480px">
+    <h3 class="my-2" >Don't have an account?</h3>
+    Either you are a company or a developer, what are you waiting for?
+    <span><v-btn class= primary> Sign Up</v-btn></span>
 
     </v-card>
+     </v-col>
   </div>
 
 
