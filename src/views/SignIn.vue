@@ -124,7 +124,9 @@
     <v-card  cols="8"
             md="8"
             position="center"
-            max-width="480px">
+            max-width="480px"
+            max-height="120px"
+            >
     <h3 class="my-2" >Don't have an account?</h3>
     Either you are a company or a developer, what are you waiting for?
     <span><v-btn class= primary> Sign Up</v-btn></span>
