@@ -120,11 +120,15 @@
   
     </v-form>
     </v-card>
-<h3>Don't have an account?</h3>
+    <v-card  cols="4"
+            md="4"
+            position="center"
+            max-width="300px">
+<h3 class="my-2" >Don't have an account?</h3>
 Either you are a company or a developer, what are you waiting for?
-<v-btn> Sign Up</v-btn>
+<v-btn class= primary> Sign Up</v-btn>
 
-
+    </v-card>
   </div>
 
 
