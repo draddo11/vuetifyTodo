@@ -38,7 +38,7 @@
         <div class="my-2">
         <v-btn  text  color="error">
           
-            <span>Register</span>
+            <span>Sign Up</span>
             
         </v-btn>
         </div>
