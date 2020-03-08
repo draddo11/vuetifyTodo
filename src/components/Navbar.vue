@@ -3,14 +3,15 @@
     <v-toolbar  color="white" flat reponsive height=25px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
-            <span class="font-weight-dark">Hiremate </span>
-                <v-icon></v-icon>
+           <router-link class="routes" to="/"> <span class="font-weight-dark">Hiremate </span>
+                <v-icon></v-icon><v-icon mediun>home</v-icon>
+                 </router-link>
         </v-toolbar-title>
         <v-spacer></v-spacer>
        
-        <router-link class="routes" to="/">
-        <v-icon mediun>home</v-icon>
-        </router-link>
+        
+        
+       
        
         <v-spacer></v-spacer>
         
