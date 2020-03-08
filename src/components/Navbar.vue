@@ -34,15 +34,7 @@
         </router-link> -->
     
 
-        <router-link class="routes" to="/signin">
-        <div class="my-2">
-        <v-btn  text  color="error">
-          
-            <span>Sign Up</span>
-            
-        </v-btn>
-        </div>
-        </router-link>
+       
 
         
     </v-toolbar>
