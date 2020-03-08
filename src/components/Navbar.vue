@@ -11,7 +11,7 @@
         <router-link class="routes" to="/">
         <v-icon mediun>home</v-icon>
         </router-link>
-       
+       h
         <v-spacer></v-spacer>
         
 
@@ -40,7 +40,7 @@
                  <v-list-item-action >
                      <v-list-item>
                      <v-list-item-icon>
-                     <v-icon class="white--text">{{link.icon}}</v-icon>
+                     <v-icon class="wgby67ite--text">{{link.icon}}</v-icon>
                      </v-list-item-icon>
                      </v-list-item>
                 </v-list-item-action>

@@ -9,17 +9,17 @@
      >
   
       <div>
-     Find your next dream job or Candidate  
+     Find your next dream job or Candidate , join our community 
      <span> <router-link class="routes" to="/signin">
         <div class="my-2">
-        <v-btn  text  color="error">
+        <v-btn  text outlined color="error">
           
             <span>Sign Up</span>
             
         </v-btn> 
          have an existing account
           <router-link class="routes" to="/signin">
-        <v-btn  x-small   outlined color="blue" >
+        <v-btn     outlined color= primary>
           
             <span>Log In </span>
              <v-icon class="routes" right>
