@@ -6,6 +6,7 @@
     
     <template
       color="grey-3"
+      col="md8"
      >
   
       <div>
@@ -14,10 +15,11 @@
         <div class="my-2">
         <v-btn  text outlined color="error">
           
-            <span>Sign Up</span>
+            Sign Up
             
         </v-btn> 
-         have an existing account
+        <v-spacer></v-spacer>
+         
           <router-link class="routes" to="/signin">
         <v-btn     outlined color= primary>
           

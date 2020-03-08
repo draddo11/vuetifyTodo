@@ -7,7 +7,7 @@
                 <v-icon></v-icon><v-icon mediun>home</v-icon>
                  </router-link>
         </v-toolbar-title>
-        <v-spacer></v-spacer>
+        
        
         
         
