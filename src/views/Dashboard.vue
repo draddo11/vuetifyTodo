@@ -16,7 +16,17 @@
           
             <span>Sign Up</span>
             
+        </v-btn> 
+         have an existing account
+          <router-link class="routes" to="/signin">
+        <v-btn  x-small   outlined color="blue" >
+          
+            <span>Log In </span>
+             <v-icon class="routes" right>
+                 exit_to_app 
+             </v-icon> 
         </v-btn>
+        </router-link>
         </div>
         </router-link> </span>
       </div> 
