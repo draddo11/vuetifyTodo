@@ -11,18 +11,14 @@
       <div>
      Find your next dream job or Candidate , join our community 
      <router-link class="routes" to="/signin">
-        <div class="my-2">
-        <v-btn  text outlined color="error">
-          
-            Sign Up
-            
+        <div class=" ">
+        <v-btn  text color="error">
+            Sign Up      
         </v-btn> 
-        
-        
+    
          have an existing account
           <router-link class="routes" to="/signin">
-        <v-btn     outlined color= primary>
-          
+          <v-btn     color= primary>
             <span>Log In </span>
              <v-icon class="routes" right>
                  exit_to_app 
@@ -149,7 +145,7 @@
 
    
     
-
+  
   <div id="app">
   <v-app id="inspire">
     <v-card
