@@ -1,25 +1,25 @@
 <template>
   <div class= "dashboard">
       
-      <v-banner color="grey-4">
+  <v-banner color="grey-4">
      
     
     <template
       color="grey-3"
-      col="md8"
      >
   
       <div>
      Find your next dream job or Candidate , join our community 
-     <span> <router-link class="routes" to="/signin">
+     <router-link class="routes" to="/signin">
         <div class="my-2">
         <v-btn  text outlined color="error">
           
             Sign Up
             
         </v-btn> 
-        <v-spacer></v-spacer>
-         
+        
+        
+         have an existing account
           <router-link class="routes" to="/signin">
         <v-btn     outlined color= primary>
           
@@ -30,8 +30,9 @@
         </v-btn>
         </router-link>
         </div>
-        </router-link> </span>
+        </router-link> 
       </div> 
+
       <router-link class="routes" to="/team" >
       <v-btn text color="primary">Remote </v-btn>
       </router-link>
