@@ -120,9 +120,10 @@
   
     </v-form>
     </v-card>
-     <v-col class="text-center" md="8" cols="12">
+     <v-col class="text-center"  cols="12">
     <v-card   color="#fff"
-            light
+              elevation="9"
+              light
               max-width="320"
              position= "left"
              max-height="220px"
