@@ -3,7 +3,7 @@
     <v-toolbar  color="white" flat reponsive height=25px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
-           <router-link class="routes" to="/"> <span class="font-weight-dark">Hiremate </span>
+           <router-link class="routes" to="/"> <v-img src="../assets/hiremate.png">Hiremate </v-img>
                 <!-- <v-icon></v-icon><v-icon mediun>home</v-icon> -->
                  </router-link>
         </v-toolbar-title>
