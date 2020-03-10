@@ -130,10 +130,11 @@
             class="mx-auto left">
             
 
-    <h3 class="m-2"> Don't have an account?</h3>
+    <h3 cols="12"
+      sm="12" class="m-2"> Don't have an account?</h3>
     Either you are a company or a developer, what are you waiting for?
     <v-spacer></v-spacer>
-    <span><router-link to='/employeesignup'><v-btn elevation="15" text--white class= "my-2" color= "primary"> Sign Up</v-btn></router-link></span>
+    <span><router-link to='/employeesignup'><v-btn large elevation="15" class= "my-2" color= "primary"> Sign Up</v-btn></router-link></span>
 
     </v-card>
      </v-col>
