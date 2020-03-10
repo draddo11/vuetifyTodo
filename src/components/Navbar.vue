@@ -1,11 +1,11 @@
 <template>
 <nav>
-    <v-toolbar  color="white" flat reponsive height=40px >
+    <v-toolbar  color="white" flat reponsive height=50px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
            <router-link class="routes" to="/"> <v-img 
-           height="50px"
-           width="50px"
+           height="60px"
+           width="60px"
            src="../assets/hiremate.png"> </v-img>
                 <!-- <v-icon></v-icon><v-icon mediun>home</v-icon> -->
                  </router-link>
