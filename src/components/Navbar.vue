@@ -1,6 +1,6 @@
 <template>
 <nav>
-    <v-toolbar  color="white" flat reponsive height=25px >
+    <v-toolbar  color="white" flat reponsive height=40px >
         <v-app-bar-nav-icon  class= "grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title class= "text-uppercase grey--text">
            <router-link class="routes" to="/"> <v-img 
