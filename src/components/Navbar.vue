@@ -6,6 +6,7 @@
            <router-link class="routes" to="/"> <v-img 
            height="60px"
            width="60px"
+           center
            src="../assets/hiremate.png"> </v-img>
                 <!-- <v-icon></v-icon><v-icon mediun>home</v-icon> -->
                  </router-link>
