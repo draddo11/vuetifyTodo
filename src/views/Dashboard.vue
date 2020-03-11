@@ -11,13 +11,13 @@
       <div>
      Find your next dream job or Candidate , join our community 
      <router-link class="routes" to="/signin">
-        <div class=" ">
+        <!-- <div class=" "> -->
         <v-btn  text color="error">
             Sign Up      
         </v-btn> 
-        </div>
+        <!-- </div> -->
         </router-link> 
-        <!-- have an existing account -->
+          have an existing account 
           <router-link class="routes" to="/signin">
           <v-btn     color= primary>
             <span>Log In </span>
