@@ -15,8 +15,9 @@
         <v-btn  text color="error">
             Sign Up      
         </v-btn> 
-    
-         have an existing account
+        </div>
+        </router-link> 
+        <!-- have an existing account -->
           <router-link class="routes" to="/signin">
           <v-btn     color= primary>
             <span>Log In </span>
@@ -25,8 +26,6 @@
              </v-icon> 
         </v-btn>
         </router-link>
-        </div>
-        </router-link> 
       </div> 
 
       <router-link class="routes" to="/team" >
