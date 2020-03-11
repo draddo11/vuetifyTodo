@@ -9,15 +9,15 @@
      >
   
       <div>
-     Find your next dream job or Candidate , join our community 
+     Find your next dream job or Candidate , join our community  
      <router-link class="routes" to="/signin">
         <!-- <div class=" "> -->
-        <v-btn  text color="error">
+        <v-btn lowercase text color="error">
             Sign Up      
         </v-btn> 
         <!-- </div> -->
         </router-link> 
-          have an existing account 
+          have an existing account  ?
           <router-link class="routes" to="/signin">
           <v-btn     color= primary>
             <span>Log In </span>
