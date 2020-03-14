@@ -8,7 +8,7 @@
     <span class="caption font-weight-medium">
       Complete fields to sign up for a free account as an employee
     </span>
-    <v-spacer></v-spacer>
+   
 
 <v-card
      max-width="320"
@@ -16,21 +16,24 @@
     class="mx-auto"
      center
      raised 
-        
-    >
-     <div class="google-btn">
-  <div class="google-icon-wrapper">
-    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
-  </div>
-  <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
-</div>
-     </div>
-     
+      >
+  
     <v-form ref="employeeForm" v-model="valid" :lazy-validation="lazy" class="">
        <v-col
             cols="12"
             md="12"
           >
+
+
+          <v-spacer>
+  <div class="google-btn">
+  <div class="google-icon-wrapper">
+    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+  </div>
+  <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
+</div>
+</div>
+ </v-spacer>
       <v-text-field
         v-model="employeeForm.firstName"
         :rules="namesRules"
