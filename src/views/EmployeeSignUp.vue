@@ -12,7 +12,7 @@
 
 <v-card
      max-width="320"
-     height="1150"
+     height="1180"
     class="mx-auto"
      center
      raised 
