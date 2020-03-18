@@ -12,7 +12,7 @@
 
 <v-card
      max-width="320"
-     height="1100"
+     height="1150"
     class="mx-auto"
      center
      raised 
@@ -22,8 +22,11 @@
     cols="12"
     sm="12"
           >
+          <div class="my-2">
   <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn >
+          </div>
   </v-col>
+
     <v-form ref="employeeForm" v-model="valid" :lazy-validation="lazy" class="">
        <v-col
             cols="12"
