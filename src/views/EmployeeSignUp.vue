@@ -18,8 +18,9 @@
      raised 
       >
        <v-col
-            cols="12"
-            md="12"
+    class="text-center"
+    cols="12"
+    sm="12"
           >
   <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn >
   </v-col>
