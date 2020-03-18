@@ -21,7 +21,7 @@
             cols="12"
             md="12"
           >
-  <v-btn primary> Sign in with Google<v-icon>email</v-icon></v-btn >
+  <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn >
   </v-col>
     <v-form ref="employeeForm" v-model="valid" :lazy-validation="lazy" class="">
        <v-col
