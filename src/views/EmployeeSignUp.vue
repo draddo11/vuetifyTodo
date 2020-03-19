@@ -20,9 +20,9 @@
        <v-col
     class="text-center"
     cols="12"
-    sm="12"
+  
           >
-          <!-- <div class="my-2"> -->
+          <div class="my-2">
 
      <div class="google-btn">
   <div class="google-icon-wrapper">
@@ -30,7 +30,7 @@
   </div>
   <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
 </div>
-     <!-- </div> -->
+     </div>
   <!-- <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn > -->
           <!-- </div> -->
   </v-col>
@@ -41,9 +41,8 @@
             md="12"
           >
 
-
-  
-
+         <span> OR </span>
+        <hr><hr>
       <v-text-field
         v-model="employeeForm.firstName"
         :rules="namesRules"
