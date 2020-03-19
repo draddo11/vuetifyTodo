@@ -22,9 +22,17 @@
     cols="12"
     sm="12"
           >
-          <div class="my-2">
-  <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn >
-          </div>
+          <!-- <div class="my-2"> -->
+
+     <div class="google-btn">
+  <div class="google-icon-wrapper">
+    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+  </div>
+  <p class="btn-text"><b><strong>Sign in with google</strong></b></p>
+</div>
+     <!-- </div> -->
+  <!-- <v-btn color="primary"> Sign in with Google<v-icon>email</v-icon></v-btn > -->
+          <!-- </div> -->
   </v-col>
 
     <v-form ref="employeeForm" v-model="valid" :lazy-validation="lazy" class="">

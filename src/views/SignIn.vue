@@ -37,7 +37,7 @@
          </v-btn>
 
          <h2 class= text-sm-center >or</h2> -->
-      <div class="google-btn">
+     <div class="google-btn">
   <div class="google-icon-wrapper">
     <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
   </div>
