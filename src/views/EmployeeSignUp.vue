@@ -561,10 +561,7 @@ $button-active-blue: #1669F2;
     letter-spacing: 0.2px;
     font-family: "Roboto";
   }
-  .or {
-    position:center;
-    width : 1px solid black;
-  
+ 
   }
   &:hover {
     box-shadow: 0 0 6px $google-blue;
@@ -572,7 +569,7 @@ $button-active-blue: #1669F2;
   &:active {
     background: $button-active-blue;
   }
-}
+
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 </style>
