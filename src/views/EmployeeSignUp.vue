@@ -41,7 +41,7 @@
             md="12"
           >
 
-         <div class="or"> OR </div>
+         
         <hr><hr>
       <v-text-field
         v-model="employeeForm.firstName"
