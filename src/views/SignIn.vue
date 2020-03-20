@@ -89,8 +89,8 @@
      cols="12"
       sm="12" 
       >
-      <div class=" signin ">
-        <router-link to='/employeesignup'>
+      <div class="my-2">
+        <router-link  class="routes" to='/employeesignup'>
       <v-btn 
         
         block
@@ -223,8 +223,8 @@ $button-active-blue: #1669F2;
     letter-spacing: 0.2px;
     font-family: "Roboto";
   }
-  .signin{
-  text-decoration: none;
+.routes{
+  text-decoration-color: none;
 }
 
   &:hover {
