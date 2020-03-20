@@ -41,7 +41,7 @@
             md="12"
           >
 
-         <span> OR </span>
+         <span class="or"> OR </span>
         <hr><hr>
       <v-text-field
         v-model="employeeForm.firstName"
@@ -560,6 +560,11 @@ $button-active-blue: #1669F2;
     font-size: 14px;
     letter-spacing: 0.2px;
     font-family: "Roboto";
+  }
+  .or {
+    position:center;
+    width : 1px solid black;
+  
   }
   &:hover {
     box-shadow: 0 0 6px $google-blue;
