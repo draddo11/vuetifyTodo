@@ -89,10 +89,10 @@
      cols="12"
       sm="12" 
       >
-      <div  class="my-2">
+      <div class=" signin ">
         <router-link to='/employeesignup'>
       <v-btn 
-      
+        
         block
         color="error"
         @click="signIn"
@@ -223,6 +223,10 @@ $button-active-blue: #1669F2;
     letter-spacing: 0.2px;
     font-family: "Roboto";
   }
+  .signin{
+  text-decoration: none;
+}
+
   &:hover {
     box-shadow: 0 0 6px $google-blue;
   }
