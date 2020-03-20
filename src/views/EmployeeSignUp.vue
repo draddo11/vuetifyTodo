@@ -14,7 +14,7 @@
      max-width="320"
      height="1180"
     class="mx-auto"
-     center
+    
      raised 
       >
        <v-col
@@ -549,7 +549,7 @@ $button-active-blue: #1669F2;
   .google-icon {
     position: absolute;
     margin-top: 11px;
-    margin-left: 11px;
+    margin-left: -4px;
     width: 18px;
     height: 18px;
   }
