@@ -49,6 +49,11 @@ export default new Router({
       path: '/home',
       name: 'homeview',
       component: Homeview
-      }
+      },
+      {
+        path: '/home',
+        name: 'homeview',
+        component: Homeview
+        }
   ]
 })
