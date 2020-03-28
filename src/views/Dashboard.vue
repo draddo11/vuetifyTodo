@@ -144,7 +144,9 @@
 
    
     
-  
+  <template>
+    
+  </template>
   <div id="app">
   <v-app id="inspire">
     <v-card
