@@ -8,6 +8,7 @@ import Team from './views/Team.vue'
 import SignIn from './views/SignIn.vue'
 import EmployeeSignUp from './views/EmployeeSignUp.vue'
 import Homeview from './views/Homeview.vue'
+import Userdashboard from './components/Userdashboard.vue'
 
 Vue.use(Router)
 
@@ -51,9 +52,9 @@ export default new Router({
       component: Homeview
       },
       {
-        path: '/home',
-        name: 'homeview',
-        component: Homeview
-        }
+        path: '/user',
+        name: 'userdashboard',
+        component: Userdashboard 
+        },
   ]
 })
