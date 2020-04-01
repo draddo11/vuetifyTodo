@@ -45,7 +45,7 @@
                  <v-list-item-action >
                      <v-list-item>
                      <v-list-item-icon>
-                     <v-icon class="wgby67ite--text">{{link.icon}}</v-icon>
+                     <v-icon class="white--text">{{link.icon}}</v-icon>
                      </v-list-item-icon>
                      </v-list-item>
                 </v-list-item-action>
@@ -73,7 +73,7 @@
                  components: Footer,
                  drawer:true ,
                  links:[
-                     {icon: 'dashboard',text:'Dashboard', route:'/' },
+                     {icon: 'dashboard',text:'Dashboard', route:'/userdashboard' },
                      { icon:'folder', text:'My Projects' , route:'/projects'},
                      {icon:'person', text:'Team' , route: '/team'}
                  ]
