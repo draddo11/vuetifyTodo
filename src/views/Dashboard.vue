@@ -15,6 +15,7 @@
         <v-btn lowercase text color="error">
             Sign Up      
         </v-btn> 
+        
         <!-- </div> -->
         </router-link> 
           have an existing account  ?
@@ -26,7 +27,11 @@
              </v-icon> 
         </v-btn>
         </router-link>
+        <router-link class="routes" to="/user">
+        <v-btn>User Dashboard</v-btn>
+        </router-link>
       </div> 
+
 
       <router-link class="routes" to="/team" >
       <v-btn text color="primary">Remote </v-btn>
