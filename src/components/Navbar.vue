@@ -36,7 +36,7 @@
         
     </v-toolbar>
 
-    <v-navigation-drawer app v-model="drawer"  class= "primary">
+    <v-navigation-drawer app v-model="drawer" absolute  class= "primary">
         
        <v-list>
            <v-list>
