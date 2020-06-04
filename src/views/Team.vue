@@ -1,11 +1,14 @@
 <template>
+<div position="center" width="300px">
 <a :href="email" target="_blank" rel="noopener noreferrer">
-  <v-icon>"email"</v-icon>
+  <v-icon>email</v-icon>
 </a>
+<hr>
+<v-spacer></v-spacer>
 <a :href="people" target="_blank" rel="noopener noreferrer">
-<v-icon>"people"</v-icon>
+<v-icon>people</v-icon>
 </a>
-
+</div>
 </template>
   <script>
   export default{
