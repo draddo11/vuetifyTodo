@@ -1,5 +1,5 @@
 <template>
-<div position="center" width="300px">
+<div position="center" width="300px" height="100px">
 <a :href="email" target="_blank" rel="noopener noreferrer">
   <v-icon>email</v-icon>
 </a>
