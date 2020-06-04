@@ -41,7 +41,7 @@
        <v-list>
            <v-list>
               
-             <v-list-tile name=" " v-for="link in links" :key="link.text" router :to="link.route"> 
+             <v-list-tile name="links " v-for="link in links" :key="link.text" router :to="link.route"> 
                  <v-list-item-action >
                      <v-list-item>
                      <v-list-item-icon>
@@ -64,6 +64,7 @@
 </template>
 
     <script>
+    
     import Footer from "./Footer.vue";
     
     export default {
